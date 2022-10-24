@@ -55,7 +55,6 @@ const Todo = () => {
                                 <div className="eachItem" key={index}>
                                     <h3>{curElem}</h3>
                                     <div className="todo-btn">
-                                        {/*<i className="fa fa-edit add-btn"></i>*/}
                                         <i className="fa fa-trash-alt add-btn" onClick={() => deleteItem(index)}></i>
                                     </div>
                                 </div>
